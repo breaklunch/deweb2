@@ -9,6 +9,7 @@ $dir = $_GET["dir"];
 $cel = $_GET["cel"];
 
 $sql = "select * from persona";
+pg_query($con, $sql);
 
 echo "Documento: ", $doc;
 echo "Nombre: ", $nom;
