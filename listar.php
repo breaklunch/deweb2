@@ -8,7 +8,7 @@ $ape = $_GET["ape"];
 $dir = $_GET["dir"];
 $cel = $_GET["cel"];
 
-$sql = "select * from persona";
+$sql = "SELECT * FROM persona";
 pg_query($con, $sql);
 
 echo "Documento: ", $doc;
