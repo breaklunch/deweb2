@@ -1,12 +1,3 @@
-<?php 
-    include("conexion.php");
-    $con=conexion();
-
-    $sql="SELECT *  FROM persona";
-    $query=mysqli_query($db,$sql);
-
-    $row=mysqli_fetch_array($query);
-?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
