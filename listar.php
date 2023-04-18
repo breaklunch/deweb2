@@ -8,6 +8,7 @@ $ape = $_GET["ape"];
 $dir = $_GET["dir"];
 $cel = $_GET["cel"];
 
+$sql = "select * from persona";
 
 echo "Documento: ", $doc;
 echo "Nombre: ", $nom;
